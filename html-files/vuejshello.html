@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>VueJsHello</title>
+</head>
+<body>
+	<<div id="helloapp">
+		<h1>{{ msg }}</h1>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.1/vue.min.js"></script>
+	
+	<script>
+		new Vue( {
+			el: "#helloapp",
+			data() {
+				return {
+					msg : "Hello Vue JS. Good morning"
+				}
+			}
+		} );
+	</script>
+</body>
+</html>
