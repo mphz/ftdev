@@ -5,8 +5,8 @@
 	<title>VueJsHello</title>
 </head>
 <body>
-	<<div id="helloapp">
-		<h1>{{ msg }}</h1>
+	<div id="helloapp">
+		<h1>{{ message }} {{ name }}</h1>
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.2.1/vue.min.js"></script>
 	
@@ -15,7 +15,8 @@
 			el: "#helloapp",
 			data() {
 				return {
-					msg : "Hello Vue JS. Good morning"
+					message : "Hello Vue JS. Good Evening.",
+					name: "Carmen"
 				}
 			}
 		} );
