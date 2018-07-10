@@ -1,0 +1,36 @@
+{
+  "name": "watchwatch",
+  "version": "0.2.6",
+  "description": "watchwatch backend using Express, Redis, Mongodb & react",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "cd frontend && npm install && npm run build"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "express": "4.15.2",
+    "md5": "^2.2.1",
+    "mongoose": "^4.11.0",
+    "npm": "^4.5.0",
+    "proxy-lists": "^1.14.1",
+    "randomstring": "^1.1.5",
+    "redis": "^2.7.1",
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mphz/watchwatc"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "watchwatch"
+  ],
+  "license": "Apache 2.0"
+}

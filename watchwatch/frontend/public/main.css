@@ -1,0 +1,21 @@
+html, body { 
+	height: 100%;
+}
+
+#wrapper {
+  min-height: 40%;
+}
+
+#root {
+  overflow:auto;
+  padding-bottom:90px; /* this needs to be bigger than footer height*/
+}
+
+
+.footer {
+	clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+} 

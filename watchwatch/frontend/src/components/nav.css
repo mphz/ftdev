@@ -1,0 +1,27 @@
+#nav {
+	border-bottom: 1px solid #e8e8e8;
+	background: #fff;
+}
+
+.navbar-search {
+	margin: 0 0 0 0;
+	padding-left: 0;
+	padding-top: 10px;
+}
+
+.navbar-brand {
+	margin: 0 auto;
+	padding-left:0;
+	padding-right: 0;
+	font-size: 18px;
+}
+
+.navbar-brand img {
+	float: left;
+}
+
+.navbar-brand .title {
+	margin-left: 5px;
+	padding-top: 5px;
+	float:left;
+}

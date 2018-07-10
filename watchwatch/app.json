@@ -1,0 +1,8 @@
+{
+  "name": "WatchWatch App",
+  "description": "A app for watching drama",
+  "repository": "https://github.com/mphz/watchwatch",
+  "logo": "./img/watchwatch.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
