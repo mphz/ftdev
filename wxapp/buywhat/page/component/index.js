@@ -1,7 +1,7 @@
 Page({
   data: {
     imgUrls: [
-      '/image/backgroundone.jpg'
+      '/image/fruitfactory.png'
     ],
     indicatorDots: false,
     autoplay: false,

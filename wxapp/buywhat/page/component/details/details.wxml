@@ -4,18 +4,19 @@
         
         <navigator open-type="switchTab" url="../cart/cart">
             <view class="carts-icon {{scaleCart?'on':''}}">
-                <image src="/image/cart2.png"></image>
+                <image src="/image/cartInDetail.png"></image>
                 <text class="carts-icon-num" wx:if="{{hasCarts}}">{{totalNum}}</text>
             </view>
         </navigator>
         
         <view class="goods-operation">
-            <text class="goods-operation-num">数量{{num}}</text>
+            <text class="goods-operation-num">数量 {{num}}</text>
+            <text class="goods-operation-minus" bindtap="minusCount">-</text>
             <text class="goods-operation-add" bindtap="addCount">+</text>
             <text class="goods-to-cart" bindtap="addToCart">加入购物车</text>
-            <image src="/image/cart1.png"  class="goods-cart-img" bindtap="addToCart"></image>
+            <image src="/image/cartInAction.png" class="goods-cart-img" bindtap="addToCart"></image>
         </view>
-        <image wx:if="{{show}}" src="/image/cart1.png" class="to-carts-icon"></image>
+        <image wx:if="{{show}}" src="/image/cartInAction.png" class="to-carts-icon"></image>
         <view class="goods-stock">{{goods.stock}}</view>
         <view class="goods-title">{{goods.title}}</view>
         <view class="goods-price">￥ {{goods.price}}</view>

@@ -104,6 +104,10 @@
     width: 80rpx;
     margin-right: 30rpx;
 }
+.goods-operation-minus{
+    width: 80rpx;
+    margin-right: 30rpx;
+}
 .goods-to-cart{
     width: 210rpx;
     padding-right: 75rpx;

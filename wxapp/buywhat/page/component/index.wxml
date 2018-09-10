@@ -14,7 +14,7 @@
             </view>
         </navigator>
     </view>
-    <view class="selected">
+    <!-- <view class="selected">
         <view class="select-title"><text>精选主题</text></view>
         <view class="select-top">
             <view class="select-top-small">
@@ -29,70 +29,29 @@
             </view>
         </view>
     </view>
+    -->
     <view class="newest">
         <view class="newest-title"><text>最近新品</text></view>
         <view class="newest-box">
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/image/guazi.png"></image>
-                    <view class="newest-text"><text>瓜子100g</text></view>
-                    <view class="newest-text"><text>￥1.00</text></view>
+                    <image src="/image/redpomelo.png"></image>
+                    <view class="newest-text"><text>梅州红肉柚1个装</text></view>
+                    <view class="newest-text"><text>￥5.98</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/image/qincai.png"></image>
-                    <view class="newest-text"><text>芹菜 半斤</text></view>
-                    <view class="newest-text"><text>￥2.00</text></view>
+                    <image src="/image/whitepomelo.png"></image>
+                    <view class="newest-text"><text>梅州白肉柚1个装</text></view>
+                    <view class="newest-text"><text>￥4.98</text></view>
                 </navigator>
             </view>
             <view class="newest-list">
                 <navigator url="details/details">
-                    <image src="/image/dami.png"></image>
-                    <view class="newest-text"><text>大米375g</text></view>
-                    <view class="newest-text"><text>￥3.00</text></view>
-                </navigator>
-            </view>
-            <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/image/guazi.png"></image>
-                    <view class="newest-text"><text>瓜子100g</text></view>
-                    <view class="newest-text"><text>￥1.00</text></view>
-                </navigator>
-            </view>
-            <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/image/qincai.png"></image>
-                    <view class="newest-text"><text>芹菜 半斤</text></view>
-                    <view class="newest-text"><text>￥2.00</text></view>
-                </navigator>
-            </view>
-            <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/image/dami.png"></image>
-                    <view class="newest-text"><text>大米375g</text></view>
-                    <view class="newest-text"><text>￥3.00</text></view>
-                </navigator>
-            </view>
-            <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/image/guazi.png"></image>
-                    <view class="newest-text"><text>瓜子100g</text></view>
-                    <view class="newest-text"><text>￥1.00</text></view>
-                </navigator>
-            </view>
-            <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/image/qincai.png"></image>
-                    <view class="newest-text"><text>芹菜 半斤</text></view>
-                    <view class="newest-text"><text>￥2.00</text></view>
-                </navigator>
-            </view>
-            <view class="newest-list">
-                <navigator url="details/details">
-                    <image src="/image/dami.png"></image>
-                    <view class="newest-text"><text>大米375g</text></view>
-                    <view class="newest-text"><text>￥3.00</text></view>
+                    <image src="/image/redwhitepomelo.png"></image>
+                    <view class="newest-text"><text>梅州红白肉2个装</text></view>
+                    <view class="newest-text"><text>￥9.98</text></view>
                 </navigator>
             </view>
         </view>

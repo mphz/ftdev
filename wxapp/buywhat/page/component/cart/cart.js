@@ -13,8 +13,9 @@ Page({
     this.setData({
       hasList: true,
       carts:[
-        //{id:1,title:'新鲜芹菜半斤',image:'/image/qincai.png',num:4,price:0.01,selected:true},
-        //{id:2,title:'大米500g',image:'/image/dami.png',num:1,price:0.03,selected:true}
+        { id:1, title:'梅州红肉柚1个装', image:'/image/redpomelo.png', num:1, price:5.98, selected:true},
+        { id:2, title:'梅州白肉柚1个装', image:'/image/whitepomelo.png',num:1, price:4.98, selected:true},
+        { id:3, title: '梅州红白肉柚2个装', image: '/image/redwhitepomelo.png', num: 1, price: 9.98, selected: true }
       ]
     });
     this.getTotalPrice();

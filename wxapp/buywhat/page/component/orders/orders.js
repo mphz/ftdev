@@ -5,8 +5,8 @@ Page({
     hasAddress: false,
     total:0,
     orders:[
-        //{id:1,title:'新鲜芹菜半斤',image:'/image/qincai.png',num:4,price:0.01},
-        //{id:2,title:'大米500g',image:'/image/dami.png',num:1,price:0.03}
+        {id:1, title:'梅州红肉柚1个装',image:'/image/redpolemo.png', num:1, price:5.98},
+        {id:2, title:'梅州白肉柚1个装',image:'/image/whitepolemo.png', num:1, price:4.98}
       ]
   },
 

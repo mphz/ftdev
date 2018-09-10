@@ -1,5 +1,5 @@
 {
-	"description": "buyawhat configuration file",
+	"description": "buywhat configuration file",
 	"packOptions": {
 		"ignore": []
 	},
@@ -12,8 +12,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.98",
-	"appid": "touristappid",
-	"projectname": "buyawhat",
+	"appid": "wx668c4b95a8f61d78",
+	"projectname": "buywhat",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

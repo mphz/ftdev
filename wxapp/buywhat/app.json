@@ -1,7 +1,6 @@
 {
   "pages": [
       "page/component/index",
-      "page/component/category/category",
       "page/component/cart/cart",
       "page/component/user/user",
       "page/component/address/address",
@@ -27,17 +26,14 @@
       "iconPath": "image/home.png",
       "selectedIconPath": "image/homed.png",
       "text": "主页"
-    }, {
-      "pagePath": "page/component/category/category",
-      "iconPath": "image/category.png",
-      "selectedIconPath": "image/categoried.png",
-      "text": "分类"
-    }, {
+    },
+    {
       "pagePath": "page/component/cart/cart",
       "iconPath": "image/cart.png",
       "selectedIconPath": "image/carted.png",
       "text": "购物车"
-    }, {
+    }, 
+    {
       "pagePath": "page/component/user/user",
       "iconPath": "image/user.png",
       "selectedIconPath": "image/usered.png",
