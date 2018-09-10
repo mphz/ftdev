@@ -1,0 +1,29 @@
+<view class="main">
+    <view class="banner">
+        <image src="/image/fruitlist.png"></image>
+    </view>
+
+    <view class="list-box">
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/guazi.png"></image>
+                <view class="newest-text"><text>瓜子100g</text></view>
+                <view class="newest-text"><text>￥ 0.01</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/qincai.png"></image>
+                <view class="newest-text"><text>芹菜半斤</text></view>
+                <view class="newest-text"><text>￥ 2</text></view>
+            </navigator>
+        </view>
+        <view class="newest-list">
+            <navigator url="../details/details">
+                <image src="/image/dami.png"></image>
+                <view class="newest-text"><text>大米375g</text></view>
+                <view class="newest-text"><text>￥ 3</text></view>
+            </navigator>
+        </view>
+    </view>
+</view>
